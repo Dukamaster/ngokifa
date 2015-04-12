@@ -1389,7 +1389,7 @@ object {
 }
 /*----  SECTION:  HOME > TOP BAR   ----*/
 .navbar {
-	background: #FFF;
+	/*background: #FFF;*/
 	border: 0;
 	border-radius: 0 !important;
 	text-align: left;
@@ -1414,7 +1414,7 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #404040;
+	/*color: #404040;*/
 	padding: 0;
 	line-height: 35px;
 }
