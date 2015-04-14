@@ -1414,7 +1414,7 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	/*color: #404040;*/
+	color: #white;
 	padding: 0;
 	line-height: 35px;
 }
