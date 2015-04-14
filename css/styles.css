@@ -854,7 +854,7 @@ input:focus {
 
 .navbar-inverse .navbar-nav>li>a {
 
-	color: #404040;
+	color: white!important;
 
 	padding: 0;
 
@@ -906,7 +906,7 @@ input:focus {
 
 .navbar-inverse .navbar-nav>li>a:hover {
 
-	color: white;
+	color: #e96656;
 
 	outline: none;
 
