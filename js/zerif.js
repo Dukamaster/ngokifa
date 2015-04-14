@@ -67,16 +67,17 @@ jQuery(document).ready(function() {
       return false;
     }
   });
-  if ( thisOpen == false && jQuery('.contact-form textarea').val().length > 0 ) {
-    thisOpen = true;
-    jQuery('.g-recaptcha').css('display','block').delay(1000).css('opacity','1');
-  }
-  jQuery('.contact-form input, .contact-form textarea').focus(function(){
-    if ( !jQuery('.g-recaptcha').hasClass('recaptcha-display') ) {
-        jQuery('.g-recaptcha').css('display','block').delay(1000).css('opacity','1');
+  if (typeof jQuery('.contact-form textarea').val() != "undefined") {
+    if ( thisOpen == false && jQuery('.contact-form textarea').val().length > 0 ) {
+      thisOpen = true;
+      jQuery('.g-recaptcha').css('display','block').delay(1000).css('opacity','1');
     }
-  });
-
+    jQuery('.contact-form input, .contact-form textarea').focus(function(){
+      if ( !jQuery('.g-recaptcha').hasClass('recaptcha-display') ) {
+          jQuery('.g-recaptcha').css('display','block').delay(1000).css('opacity','1');
+      }
+    });
+  }
 });
 
 
