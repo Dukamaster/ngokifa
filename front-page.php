@@ -399,7 +399,7 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 				<!-- CONTACT FORM-->
 				<div class="row">
 					<?php 
-						echo do_shortcode('[contact-form-7 id="780" title="Main contact form" html_class="contact-form"]]');
+						echo do_shortcode('[contact-form-7 id="780" title="Main contact form" html_class="contact-form"]');
 					?>					
 				</div>
 
