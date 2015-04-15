@@ -1414,7 +1414,7 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #white;
+	color: white;
 	padding: 0;
 	line-height: 35px;
 }
@@ -4321,4 +4321,8 @@ body.custom-background {
 
 .zerif-copyright-box {
 	width: 100%;
+}
+
+.wpcf7-mail-sent-ok {
+	color: white!important;
 }
